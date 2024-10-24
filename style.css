@@ -37,6 +37,15 @@ ul{
 
 .quote{
     background-color: #e5e7eb;
+    width: 610px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote_box{
+    display: flex;
+    justify-content: center;
 }
 
 .top{
@@ -64,3 +73,10 @@ ul{
     background-color: gray;
     align-content: center;
 }
+
+.subtext_mid{
+    display: flex;
+    flex-direction: row;
+    margin-top: 380px;
+}
+
